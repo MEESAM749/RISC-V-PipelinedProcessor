@@ -1,0 +1,5 @@
+verilog work "IF_PC.v"
+verilog work "IF_MUX1.v"
+verilog work "IF_IM.v"
+verilog work "IF_ADDER1.v"
+verilog work "IF.v"
