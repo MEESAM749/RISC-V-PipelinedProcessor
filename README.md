@@ -3,5 +3,5 @@ This is the simulation of a RISC-V Pipelined Processor in Verilog on Xilinx ISE 
 This project was aimed at gaining deeper understanding of simulating and verifying complex hardware designs using simulation tools like Xilinx ISE Design Suite.
 # Current Progress
 Stage 1 Completed  
-Stage 2 Completed
+Stage 2 Completed  
 Stage 3 In Progress
