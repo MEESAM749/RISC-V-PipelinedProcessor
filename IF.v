@@ -3,7 +3,7 @@ module IF(
 input wire clk,reset,
 input wire [31:0] mux1in, // Comes from 4th Stage
 input wire mux1select,
-output wire [31:0] interstage_pcout,interstage_imout
+output wire [31:0] interstage_pcout,interstage_imout,interstage_adderout
 );
 
 //Intermodule Wires//
@@ -57,4 +57,5 @@ IF_IM im (
 
 assign interstage_pcout = pcout;
 assign interstage_imout = imout;
+assign interstage_adderout = adderout;
 endmodule

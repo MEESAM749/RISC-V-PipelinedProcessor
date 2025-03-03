@@ -1,16 +1,16 @@
-Release 14.5 - xst P.58f (nt)
+Release 14.5 - xst P.58f (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: IF.prj
 
@@ -105,15 +105,15 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\XilinkProjects\RISC-V-PipelinedProcessor\IF_PC.v" into library work
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_PC.v" into library work
 Parsing module <IF_PC>.
-Analyzing Verilog file "D:\XilinkProjects\RISC-V-PipelinedProcessor\IF_MUX1.v" into library work
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_MUX1.v" into library work
 Parsing module <IF_MUX1>.
-Analyzing Verilog file "D:\XilinkProjects\RISC-V-PipelinedProcessor\IF_IM.v" into library work
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_IM.v" into library work
 Parsing module <IF_IM>.
-Analyzing Verilog file "D:\XilinkProjects\RISC-V-PipelinedProcessor\IF_ADDER1.v" into library work
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_ADDER1.v" into library work
 Parsing module <IF_ADDER1>.
-Analyzing Verilog file "D:\XilinkProjects\RISC-V-PipelinedProcessor\IF.v" into library work
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF.v" into library work
 Parsing module <IF>.
 
 =========================================================================
@@ -135,19 +135,19 @@ Elaborating module <IF_IM>.
 =========================================================================
 
 Synthesizing Unit <IF>.
-    Related source file is "D:\XilinkProjects\RISC-V-PipelinedProcessor\IF.v".
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF.v".
     Summary:
 	no macro.
 Unit <IF> synthesized.
 
 Synthesizing Unit <IF_MUX1>.
-    Related source file is "D:\XilinkProjects\RISC-V-PipelinedProcessor\IF_MUX1.v".
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_MUX1.v".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <IF_MUX1> synthesized.
 
 Synthesizing Unit <IF_PC>.
-    Related source file is "D:\XilinkProjects\RISC-V-PipelinedProcessor\IF_PC.v".
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_PC.v".
 WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 32-bit register for signal <pc_out>.
     Summary:
@@ -155,14 +155,14 @@ WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and l
 Unit <IF_PC> synthesized.
 
 Synthesizing Unit <IF_ADDER1>.
-    Related source file is "D:\XilinkProjects\RISC-V-PipelinedProcessor\IF_ADDER1.v".
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_ADDER1.v".
     Found 32-bit adder for signal <out> created at line 25.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 Unit <IF_ADDER1> synthesized.
 
 Synthesizing Unit <IF_IM>.
-    Related source file is "D:\XilinkProjects\RISC-V-PipelinedProcessor\IF_IM.v".
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_IM.v".
 WARNING:Xst:647 - Input <inst_addr<31:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:653 - Signal <instmem> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 32x32-bit single-port Read Only RAM <Mram_instmem> for signal <instmem>.
@@ -222,11 +222,10 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:2973 - All outputs of instance <pc> of block <IF_PC> are unconnected in block <IF>. Underlying logic will be removed.
-
-Optimizing unit <IF> ...
 
 Optimizing unit <IF_PC> ...
+
+Optimizing unit <IF> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -237,7 +236,10 @@ Final Macro Processing ...
 =========================================================================
 Final Register Report
 
-Found no macro
+Macro Statistics
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+
 =========================================================================
 
 =========================================================================
@@ -259,10 +261,21 @@ Top Level Output File Name         : IF.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1
+# BELS                             : 123
 #      GND                         : 1
-# IO Buffers                       : 32
-#      OBUF                        : 32
+#      INV                         : 1
+#      LUT1                        : 29
+#      LUT3                        : 32
+#      MUXCY                       : 29
+#      VCC                         : 1
+#      XORCY                       : 30
+# FlipFlops/Latches                : 32
+#      FD                          : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 129
+#      IBUF                        : 33
+#      OBUF                        : 96
 
 Device utilization summary:
 ---------------------------
@@ -271,19 +284,23 @@ Selected Device : 7a100tcsg324-3
 
 
 Slice Logic Utilization: 
+ Number of Slice Registers:              32  out of  126800     0%  
+ Number of Slice LUTs:                   62  out of  63400     0%  
+    Number used as Logic:                62  out of  63400     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:      0
-   Number with an unused Flip Flop:       0  out of      0         
-   Number with an unused LUT:             0  out of      0         
-   Number of fully used LUT-FF pairs:     0  out of      0         
-   Number of unique control sets:         0
+ Number of LUT Flip Flop pairs used:     62
+   Number with an unused Flip Flop:      30  out of     62    48%  
+   Number with an unused LUT:             0  out of     62     0%  
+   Number of fully used LUT-FF pairs:    32  out of     62    51%  
+   Number of unique control sets:         1
 
 IO Utilization: 
- Number of IOs:                          99
- Number of bonded IOBs:                  32  out of    210    15%  
+ Number of IOs:                         131
+ Number of bonded IOBs:                 130  out of    210    61%  
 
 Specific Feature Utilization:
+ Number of BUFG/BUFGCTRL/BUFHCEs:         1  out of    128     0%  
 
 ---------------------------
 Partition Resource Summary:
@@ -303,7 +320,11 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
-No clock signals found in this design
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 32    |
+-----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
 ----------------------------------------
@@ -313,9 +334,9 @@ Timing Summary:
 ---------------
 Speed Grade: -3
 
-   Minimum period: No path found
-   Minimum input arrival time before clock: No path found
-   Maximum output required time after clock: No path found
+   Minimum period: 2.529ns (Maximum Frequency: 395.413MHz)
+   Minimum input arrival time before clock: 0.724ns
+   Maximum output required time after clock: 2.408ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -323,21 +344,152 @@ Timing Details:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.529ns (frequency: 395.413MHz)
+  Total number of paths / destination ports: 467 / 32
+-------------------------------------------------------------------------
+Delay:               2.529ns (Levels of Logic = 32)
+  Source:            pc/pc_out_2 (FF)
+  Destination:       pc/pc_out_31 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: pc/pc_out_2 to pc/pc_out_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.361   0.284  pc/pc_out_2 (pc/pc_out_2)
+     INV:I->O              1   0.113   0.000  adder/Madd_out_lut<2>_INV_0 (adder/Madd_out_lut<2>)
+     MUXCY:S->O            1   0.353   0.000  adder/Madd_out_cy<2> (adder/Madd_out_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<3> (adder/Madd_out_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<4> (adder/Madd_out_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<5> (adder/Madd_out_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<6> (adder/Madd_out_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<7> (adder/Madd_out_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<8> (adder/Madd_out_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<9> (adder/Madd_out_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<10> (adder/Madd_out_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<11> (adder/Madd_out_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<12> (adder/Madd_out_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<13> (adder/Madd_out_cy<13>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<14> (adder/Madd_out_cy<14>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<15> (adder/Madd_out_cy<15>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<16> (adder/Madd_out_cy<16>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<17> (adder/Madd_out_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<18> (adder/Madd_out_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<19> (adder/Madd_out_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<20> (adder/Madd_out_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<21> (adder/Madd_out_cy<21>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<22> (adder/Madd_out_cy<22>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<23> (adder/Madd_out_cy<23>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<24> (adder/Madd_out_cy<24>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<25> (adder/Madd_out_cy<25>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<26> (adder/Madd_out_cy<26>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<27> (adder/Madd_out_cy<27>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<28> (adder/Madd_out_cy<28>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<29> (adder/Madd_out_cy<29>)
+     MUXCY:CI->O           0   0.023   0.000  adder/Madd_out_cy<30> (adder/Madd_out_cy<30>)
+     XORCY:CI->O           2   0.370   0.299  adder/Madd_out_xor<31> (interstage_adderout_31_OBUF)
+     LUT3:I2->O            1   0.097   0.000  mux1/Mmux_out251 (mux1out<31>)
+     FD:D                      0.008          pc/pc_out_31
+    ----------------------------------------
+    Total                      2.529ns (1.946ns logic, 0.583ns route)
+                                       (76.9% logic, 23.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 64 / 32
+-------------------------------------------------------------------------
+Offset:              0.724ns (Levels of Logic = 2)
+  Source:            mux1select (PAD)
+  Destination:       pc/pc_out_5 (FF)
+  Destination Clock: clk rising
+
+  Data Path: mux1select to pc/pc_out_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            32   0.001   0.618  mux1select_IBUF (mux1select_IBUF)
+     LUT3:I0->O            1   0.097   0.000  mux1/Mmux_out281 (mux1out<5>)
+     FD:D                      0.008          pc/pc_out_5
+    ----------------------------------------
+    Total                      0.724ns (0.106ns logic, 0.618ns route)
+                                       (14.6% logic, 85.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 499 / 64
+-------------------------------------------------------------------------
+Offset:              2.408ns (Levels of Logic = 32)
+  Source:            pc/pc_out_2 (FF)
+  Destination:       interstage_adderout<31> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: pc/pc_out_2 to interstage_adderout<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.361   0.284  pc/pc_out_2 (pc/pc_out_2)
+     INV:I->O              1   0.113   0.000  adder/Madd_out_lut<2>_INV_0 (adder/Madd_out_lut<2>)
+     MUXCY:S->O            1   0.353   0.000  adder/Madd_out_cy<2> (adder/Madd_out_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<3> (adder/Madd_out_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<4> (adder/Madd_out_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<5> (adder/Madd_out_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<6> (adder/Madd_out_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<7> (adder/Madd_out_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<8> (adder/Madd_out_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<9> (adder/Madd_out_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<10> (adder/Madd_out_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<11> (adder/Madd_out_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<12> (adder/Madd_out_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<13> (adder/Madd_out_cy<13>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<14> (adder/Madd_out_cy<14>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<15> (adder/Madd_out_cy<15>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<16> (adder/Madd_out_cy<16>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<17> (adder/Madd_out_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<18> (adder/Madd_out_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<19> (adder/Madd_out_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<20> (adder/Madd_out_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<21> (adder/Madd_out_cy<21>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<22> (adder/Madd_out_cy<22>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<23> (adder/Madd_out_cy<23>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<24> (adder/Madd_out_cy<24>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<25> (adder/Madd_out_cy<25>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<26> (adder/Madd_out_cy<26>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<27> (adder/Madd_out_cy<27>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<28> (adder/Madd_out_cy<28>)
+     MUXCY:CI->O           1   0.023   0.000  adder/Madd_out_cy<29> (adder/Madd_out_cy<29>)
+     MUXCY:CI->O           0   0.023   0.000  adder/Madd_out_cy<30> (adder/Madd_out_cy<30>)
+     XORCY:CI->O           2   0.370   0.283  adder/Madd_out_xor<31> (interstage_adderout_31_OBUF)
+     OBUF:I->O                 0.000          interstage_adderout_31_OBUF (interstage_adderout<31>)
+    ----------------------------------------
+    Total                      2.408ns (1.841ns logic, 0.567ns route)
+                                       (76.5% logic, 23.5% route)
+
+=========================================================================
 
 Cross Clock Domains Report:
 --------------------------
 
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.529|         |         |         |
+---------------+---------+---------+---------+---------+
+
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.39 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.63 secs
  
 --> 
 
-Total memory usage is 342896 kilobytes
+Total memory usage is 4688796 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    4 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
 Number of infos    :    1 (   0 filtered)
 

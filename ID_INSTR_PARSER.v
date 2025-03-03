@@ -26,8 +26,13 @@ module ID_INSTR_PARSER(
     output reg [4:0] rs1,
     output reg [4:0] rs2,
     output reg [6:0] funct7,
-    output reg [31:0] imm
+    output reg [31:0] imm,
+	 output wire [4:0] a1,a2
 );
+
+assign a1 = instr[19:15];
+assign a2 = instr[24:20];
+
     always @(*) begin
         opcode = instr[6:0];
 

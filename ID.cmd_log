@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/ID.xst" -ofn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/ID.syr" 

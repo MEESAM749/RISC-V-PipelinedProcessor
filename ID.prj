@@ -1,0 +1,5 @@
+verilog work "ID_REGFILE.v"
+verilog work "ID_INSTR_PARSER.v"
+verilog work "ID_EXTEND.v"
+verilog work "ID_CU.v"
+verilog work "ID.v"
