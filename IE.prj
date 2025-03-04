@@ -1,0 +1,6 @@
+verilog work "IE_PCSRC.v"
+verilog work "IE_MUX2x1.v"
+verilog work "IE_MUX.v"
+verilog work "IE_ALU.v"
+verilog work "IE_ADDER.v"
+verilog work "IE.v"

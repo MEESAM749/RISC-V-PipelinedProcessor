@@ -1,0 +1,400 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: IE.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "IE.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "IE"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : IE
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_PCSRC.v" into library work
+Parsing module <IE_PCSRC>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_MUX2x1.v" into library work
+Parsing module <IE_MUX2x1>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_MUX.v" into library work
+Parsing module <IE_MUX3x1>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_ALU.v" into library work
+Parsing module <IE_ALU>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_ADDER.v" into library work
+Parsing module <IE_ADDER>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE.v" into library work
+Parsing module <IE>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <IE>.
+
+Elaborating module <IE_MUX3x1>.
+
+Elaborating module <IE_MUX2x1>.
+
+Elaborating module <IE_ADDER>.
+
+Elaborating module <IE_ALU>.
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE.v" Line 78: Assignment to ALUResult1 ignored, since the identifier is never used
+
+Elaborating module <IE_PCSRC>.
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE.v" Line 92: Assignment to PCPLUS4D ignored, since the identifier is never used
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <IE>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE.v".
+WARNING:Xst:647 - Input <PCPLUS4D> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE.v" line 74: Output port <ALUResult> of the instance <alu> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <IE> synthesized.
+
+Synthesizing Unit <IE_MUX3x1>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_MUX.v".
+    Found 32-bit 4-to-1 multiplexer for signal <out> created at line 24.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <IE_MUX3x1> synthesized.
+
+Synthesizing Unit <IE_MUX2x1>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_MUX2x1.v".
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <IE_MUX2x1> synthesized.
+
+Synthesizing Unit <IE_ADDER>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_ADDER.v".
+    Found 32-bit adder for signal <out> created at line 25.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <IE_ADDER> synthesized.
+
+Synthesizing Unit <IE_ALU>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_ALU.v".
+    Found 32-bit subtractor for signal <SrcA[31]_SrcB[31]_sub_2_OUT> created at line 32.
+    Found 32-bit adder for signal <SrcA[31]_SrcB[31]_add_0_OUT> created at line 31.
+    Found 32-bit shifter logical left for signal <SrcA[31]_SrcB[4]_shift_left_7_OUT> created at line 37
+    Found 32-bit shifter logical right for signal <SrcA[31]_SrcB[4]_shift_right_8_OUT> created at line 38
+    Found 32-bit 8-to-1 multiplexer for signal <ALUResult> created at line 30.
+    Found 32-bit comparator greater for signal <SrcA[31]_SrcB[31]_LessThan_6_o> created at line 36
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred   6 Multiplexer(s).
+	inferred   2 Combinational logic shifter(s).
+Unit <IE_ALU> synthesized.
+
+Synthesizing Unit <IE_PCSRC>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_PCSRC.v".
+    Summary:
+	no macro.
+Unit <IE_PCSRC> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 1
+ 32-bit addsub                                         : 1
+# Comparators                                          : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 10
+ 32-bit 2-to-1 multiplexer                             : 8
+ 32-bit 4-to-1 multiplexer                             : 2
+# Logic shifters                                       : 2
+ 32-bit shifter logical left                           : 1
+ 32-bit shifter logical right                          : 1
+# Xors                                                 : 1
+ 32-bit xor2                                           : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 1
+ 32-bit addsub                                         : 1
+# Comparators                                          : 1
+ 32-bit comparator greater                             : 1
+# Multiplexers                                         : 10
+ 32-bit 2-to-1 multiplexer                             : 8
+ 32-bit 4-to-1 multiplexer                             : 2
+# Logic shifters                                       : 2
+ 32-bit shifter logical left                           : 1
+ 32-bit shifter logical right                          : 1
+# Xors                                                 : 1
+ 32-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <IE> ...
+
+Optimizing unit <IE_ALU> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block IE, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : IE.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 640
+#      GND                         : 1
+#      LUT2                        : 34
+#      LUT3                        : 34
+#      LUT4                        : 50
+#      LUT5                        : 191
+#      LUT6                        : 176
+#      MUXCY                       : 77
+#      MUXF7                       : 12
+#      VCC                         : 1
+#      XORCY                       : 64
+# IO Buffers                       : 305
+#      IBUF                        : 221
+#      OBUF                        : 84
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                  485  out of  63400     0%  
+    Number used as Logic:               485  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    485
+   Number with an unused Flip Flop:     485  out of    485   100%  
+   Number with an unused LUT:             0  out of    485     0%  
+   Number of fully used LUT-FF pairs:     0  out of    485     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         401
+ Number of bonded IOBs:                 305  out of    210   145% (*) 
+
+Specific Feature Utilization:
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 7.243ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 25542 / 84
+-------------------------------------------------------------------------
+Delay:               7.243ns (Levels of Logic = 12)
+  Source:            ForwardB<1> (PAD)
+  Destination:       PCSrcOut (PAD)
+
+  Data Path: ForwardB<1> to PCSrcOut
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            32   0.001   0.790  ForwardB_1_IBUF (ForwardB_1_IBUF)
+     LUT5:I0->O           20   0.097   0.467  forwardB/Mmux_out121 (WriteData_1_OBUF)
+     LUT3:I1->O           56   0.097   0.794  ForwardBb/Mmux_out121 (FwBb<1>)
+     LUT5:I0->O            6   0.097   0.579  alu/Sh21 (alu/Sh2)
+     LUT6:I2->O            2   0.097   0.561  alu/Sh461 (alu/Sh46)
+     LUT6:I2->O            1   0.097   0.683  pcsrc/PcSrc207 (pcsrc/PcSrc206)
+     LUT6:I1->O            2   0.097   0.697  pcsrc/PcSrc211 (pcsrc/PcSrc210)
+     LUT6:I0->O            1   0.097   0.000  pcsrc/PcSrc218_G (N58)
+     MUXF7:I1->O           1   0.279   0.556  pcsrc/PcSrc218 (pcsrc/PcSrc217)
+     LUT6:I2->O            1   0.097   0.683  pcsrc/PcSrc219 (pcsrc/PcSrc218)
+     LUT6:I1->O            1   0.097   0.279  pcsrc/PcSrc220 (PCSrcOut_OBUF)
+     OBUF:I->O                 0.000          PCSrcOut_OBUF (PCSrcOut)
+    ----------------------------------------
+    Total                      7.243ns (1.153ns logic, 6.090ns route)
+                                       (15.9% logic, 84.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.15 secs
+ 
+--> 
+
+Total memory usage is 4689628 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+
