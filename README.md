@@ -4,4 +4,7 @@ This project was aimed at gaining deeper understanding of simulating and verifyi
 # Current Progress
 Stage 1 Completed  
 Stage 2 Completed  
-Stage 3 In Progress
+Stage 3 Completed  
+Stage 4 Completd  
+Stage 5 In progress...  
+InterStage Registers: Remaining...  
