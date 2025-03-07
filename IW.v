@@ -40,4 +40,5 @@ IW_MUX mux (
 assign RegWriteWout=RegWrtieW;
 assign HazardUnit=RegWrtieW;
 assign RdWhazard=RdW;
+
 endmodule
