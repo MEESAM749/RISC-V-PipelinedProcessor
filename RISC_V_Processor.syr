@@ -1,0 +1,228 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: RISC_V_Processor.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "RISC_V_Processor.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "RISC_V_Processor"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : RISC_V_Processor
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IW_MUX.v" into library work
+Parsing module <IW_MUX>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IM_DATAMEM.v" into library work
+Parsing module <IM_DATAMEM>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_PC.v" into library work
+Parsing module <IF_PC>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_MUX1.v" into library work
+Parsing module <IF_MUX1>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_IM.v" into library work
+Parsing module <IF_IM>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_ADDER1.v" into library work
+Parsing module <IF_ADDER1>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_PCSRC.v" into library work
+Parsing module <IE_PCSRC>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_MUX2x1.v" into library work
+Parsing module <IE_MUX2x1>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_MUX.v" into library work
+Parsing module <IE_MUX3x1>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_ALU.v" into library work
+Parsing module <IE_ALU>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_ADDER.v" into library work
+Parsing module <IE_ADDER>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID_REGFILE.v" into library work
+Parsing module <ID_REGFILE>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID_INSTR_PARSER.v" into library work
+Parsing module <ID_INSTR_PARSER>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID_EXTEND.v" into library work
+Parsing module <ID_EXTEND>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID_CU.v" into library work
+Parsing module <ID_CU>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\MEM_WB_Register.v" into library work
+Parsing module <MEM_WB_Register>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IW.v" into library work
+Parsing module <IW>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IM.v" into library work
+Parsing module <IM>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_ID_REG.v" into library work
+Parsing module <IF_ID_Register>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF.v" into library work
+Parsing module <IF>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE.v" into library work
+Parsing module <IE>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID_EX_Register.v" into library work
+Parsing module <ID_EX_Register>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v" into library work
+Parsing module <ID>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\EX_MEM_Register.v" into library work
+Parsing module <EX_MEM_Register>.
+Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" into library work
+Parsing module <RISC_V_Processor>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 61: Module <IF> does not have a port named <PCSrc>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 62: Module <IF> does not have a port named <PCTarget>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 63: Module <IF> does not have a port named <PCWrite>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 64: Module <IF> does not have a port named <PC>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 65: Module <IF> does not have a port named <Instruction>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 66: Module <IF> does not have a port named <PCPlus4>.
+WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 58: Port mux1in is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 74: Module <IF_ID_Register> does not have a port named <Instruction_in>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 75: Module <IF_ID_Register> does not have a port named <PCPlus4_in>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 77: Module <IF_ID_Register> does not have a port named <Instruction_out>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 78: Module <IF_ID_Register> does not have a port named <PCPlus4_out>.
+WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 69: Port instruction_in is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 87: Module <ID> does not have a port named <PC>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 88: Module <ID> does not have a port named <RegWrite_WB>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 89: Module <ID> does not have a port named <Rd_WB>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 90: Module <ID> does not have a port named <Result_WB>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 98: Module <ID> does not have a port named <ReadData1>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 99: Module <ID> does not have a port named <ReadData2>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 100: Module <ID> does not have a port named <ImmExt>.
+WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 85: Port PcIn is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 119: Module <ID_EX_Register> does not have a port named <ImmExt_in>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 133: Module <ID_EX_Register> does not have a port named <ImmExt_out>.
+WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 106: Port MemtoReg_in is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 150: Module <IE> does not have a port named <ReadData1>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 151: Module <IE> does not have a port named <ReadData2>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 152: Module <IE> does not have a port named <ImmExt>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 158: Module <IE> does not have a port named <PCSrc>.
+WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 143: Port ResultSrc is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 161: Port MemtoReg_in is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 184: Module <IM> does not have a port named <WriteData>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 185: Module <IM> does not have a port named <MemWrite>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 186: Module <IM> does not have a port named <MemRead>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 187: Module <IM> does not have a port named <ReadData>.
+WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 182: Port WriteDataM is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 190: Port MemtoReg_in is not connected to this instance
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 208: Module <IW> does not have a port named <ReadData>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 209: Module <IW> does not have a port named <ALUResult>.
+WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 210: Module <IW> does not have a port named <Result>.
+WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 207: Port RegWrtieW is not connected to this instance
+
+Elaborating module <RISC_V_Processor>.
+
+Elaborating module <IF>.
+
+Elaborating module <IF_MUX1>.
+
+Elaborating module <IF_PC>.
+
+Elaborating module <IF_ADDER1>.
+
+Elaborating module <IF_IM>.
+ERROR:HDLCompiler:267 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 61: Cannot find port PCSrc on this module
+ERROR:HDLCompiler:267 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 62: Cannot find port PCTarget on this module
+ERROR:HDLCompiler:267 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 63: Cannot find port PCWrite on this module
+ERROR:HDLCompiler:267 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 64: Cannot find port PC on this module
+ERROR:HDLCompiler:267 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 65: Cannot find port Instruction on this module
+ERROR:HDLCompiler:267 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 66: Cannot find port PCPlus4 on this module
+Module RISC_V_Processor remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 1: Empty module <RISC_V_Processor> remains a black box.
+--> 
+
+Total memory usage is 4478344 kilobytes
+
+Number of errors   :    6 (   0 filtered)
+Number of warnings :   40 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

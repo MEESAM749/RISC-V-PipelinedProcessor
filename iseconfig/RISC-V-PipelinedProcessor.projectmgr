@@ -13,15 +13,21 @@
          <ClosedNode>/IF D:|XilinkProjects|RISC-V-PipelinedProcessor|IF.v</ClosedNode>
          <ClosedNode>/IM C:|Users|Muhammad Meesam|Documents|GitHub|RISC-V-PipelinedProcessor|IM.v</ClosedNode>
          <ClosedNode>/IW C:|Users|Muhammad Meesam|Documents|GitHub|RISC-V-PipelinedProcessor|IW.v</ClosedNode>
+         <ClosedNode>/RISC_V_Processor C:|Users|Muhammad Meesam|Documents|GitHub|RISC-V-PipelinedProcessor|RISC_V_Processor.v</ClosedNode>
          <ClosedNode>/RISC_V_Processor C:|Users|Muhammad Meesam|Documents|GitHub|RISC-V-PipelinedProcessor|RISC_V_Processor.v/ID_stage - ID</ClosedNode>
          <ClosedNode>/RISC_V_Processor C:|Users|Muhammad Meesam|Documents|GitHub|RISC-V-PipelinedProcessor|RISC_V_Processor.v/IE_stage - IE</ClosedNode>
+         <ClosedNode>/RISC_V_Processor C:|Users|Muhammad Meesam|Documents|GitHub|RISC-V-PipelinedProcessor|RISC_V_Processor.v/If - IF</ClosedNode>
+         <ClosedNode>/RISC_V_Processor C:|Users|Muhammad Meesam|Documents|GitHub|RISC-V-PipelinedProcessor|RISC_V_Processor.v/id - ID</ClosedNode>
+         <ClosedNode>/RISC_V_Processor C:|Users|Muhammad Meesam|Documents|GitHub|RISC-V-PipelinedProcessor|RISC_V_Processor.v/ie - IE</ClosedNode>
+         <ClosedNode>/RISC_V_Processor C:|Users|Muhammad Meesam|Documents|GitHub|RISC-V-PipelinedProcessor|RISC_V_Processor.v/im - IM</ClosedNode>
+         <ClosedNode>/RISC_V_Processor C:|Users|Muhammad Meesam|Documents|GitHub|RISC-V-PipelinedProcessor|RISC_V_Processor.v/iw - IW</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem>RISC_V_Processor (C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000178000000020000000000000000000000000200000064ffffffff000000810000000300000002000001780000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000134000000020000000000000000000000000200000064ffffffff000000810000000300000002000001340000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>RISC_V_Processor (C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.v)</CurrentItem>
    </ItemView>
@@ -31,13 +37,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>

@@ -76,6 +76,13 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="IW_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="IW_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="IW_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="RISC_V_Processor.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="RISC_V_Processor.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RISC_V_Processor.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="RISC_V_Processor.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="RISC_V_Processor.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="RISC_V_Processor_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RISC_V_Processor_xst.xrpt"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
@@ -85,6 +92,50 @@
     <transform xil_pn:end_ts="1740937789" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1740937789">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1741458553" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3680140303754278470" xil_pn:start_ts="1741458553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1741458553" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3147790280124051362" xil_pn:start_ts="1741458553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1741458553" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1741458553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1741458553" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="6891982978019629532" xil_pn:start_ts="1741458553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1741458553" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1741458553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1741458553" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="632350367235107884" xil_pn:start_ts="1741458553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1741459658" xil_pn:in_ck="6743508924829516640" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="2350234440860843743" xil_pn:start_ts="1741459649">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="ID.ngr"/>
+      <outfile xil_pn:name="IE.ngr"/>
+      <outfile xil_pn:name="IF.ngr"/>
+      <outfile xil_pn:name="IM.ngr"/>
+      <outfile xil_pn:name="IW.ngr"/>
+      <outfile xil_pn:name="RISC_V_Processor.lso"/>
+      <outfile xil_pn:name="RISC_V_Processor.prj"/>
+      <outfile xil_pn:name="RISC_V_Processor.syr"/>
+      <outfile xil_pn:name="RISC_V_Processor.xst"/>
+      <outfile xil_pn:name="RISC_V_Processor_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
     </transform>
   </transforms>
 

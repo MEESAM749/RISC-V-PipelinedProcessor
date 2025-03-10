@@ -5,5 +5,143 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 61: Module &lt;<arg fmt="%s" index="1">IF</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PCSrc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 62: Module &lt;<arg fmt="%s" index="1">IF</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PCTarget</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 63: Module &lt;<arg fmt="%s" index="1">IF</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PCWrite</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 64: Module &lt;<arg fmt="%s" index="1">IF</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 65: Module &lt;<arg fmt="%s" index="1">IF</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">Instruction</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 66: Module &lt;<arg fmt="%s" index="1">IF</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PCPlus4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 58: Port <arg fmt="%s" index="1">mux1in</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 74: Module &lt;<arg fmt="%s" index="1">IF_ID_Register</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">Instruction_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 75: Module &lt;<arg fmt="%s" index="1">IF_ID_Register</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PCPlus4_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 77: Module &lt;<arg fmt="%s" index="1">IF_ID_Register</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">Instruction_out</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 78: Module &lt;<arg fmt="%s" index="1">IF_ID_Register</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PCPlus4_out</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 69: Port <arg fmt="%s" index="1">instruction_in</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 87: Module &lt;<arg fmt="%s" index="1">ID</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PC</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 88: Module &lt;<arg fmt="%s" index="1">ID</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">RegWrite_WB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 89: Module &lt;<arg fmt="%s" index="1">ID</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">Rd_WB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 90: Module &lt;<arg fmt="%s" index="1">ID</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">Result_WB</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 98: Module &lt;<arg fmt="%s" index="1">ID</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ReadData1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 99: Module &lt;<arg fmt="%s" index="1">ID</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ReadData2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 100: Module &lt;<arg fmt="%s" index="1">ID</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ImmExt</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 85: Port <arg fmt="%s" index="1">PcIn</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 119: Module &lt;<arg fmt="%s" index="1">ID_EX_Register</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ImmExt_in</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 133: Module &lt;<arg fmt="%s" index="1">ID_EX_Register</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ImmExt_out</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 106: Port <arg fmt="%s" index="1">MemtoReg_in</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 150: Module &lt;<arg fmt="%s" index="1">IE</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ReadData1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 151: Module &lt;<arg fmt="%s" index="1">IE</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ReadData2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 152: Module &lt;<arg fmt="%s" index="1">IE</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ImmExt</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 158: Module &lt;<arg fmt="%s" index="1">IE</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PCSrc</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 143: Port <arg fmt="%s" index="1">ResultSrc</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 161: Port <arg fmt="%s" index="1">MemtoReg_in</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 184: Module &lt;<arg fmt="%s" index="1">IM</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">WriteData</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 185: Module &lt;<arg fmt="%s" index="1">IM</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">MemWrite</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 186: Module &lt;<arg fmt="%s" index="1">IM</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">MemRead</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 187: Module &lt;<arg fmt="%s" index="1">IM</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ReadData</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 182: Port <arg fmt="%s" index="1">WriteDataM</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 190: Port <arg fmt="%s" index="1">MemtoReg_in</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 208: Module &lt;<arg fmt="%s" index="1">IW</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ReadData</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 209: Module &lt;<arg fmt="%s" index="1">IW</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ALUResult</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 210: Module &lt;<arg fmt="%s" index="1">IW</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">Result</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 207: Port <arg fmt="%s" index="1">RegWrtieW</arg> is not connected to this instance
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 61: Cannot find port <arg fmt="%s" index="1">PCSrc</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 62: Cannot find port <arg fmt="%s" index="1">PCTarget</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 63: Cannot find port <arg fmt="%s" index="1">PCWrite</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 64: Cannot find port <arg fmt="%s" index="1">PC</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 65: Cannot find port <arg fmt="%s" index="1">Instruction</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 66: Cannot find port <arg fmt="%s" index="1">PCPlus4</arg> on this module
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 1: Empty module &lt;<arg fmt="%s" index="1">RISC_V_Processor</arg>&gt; remains a black box.
+</msg>
+
 </messages>
 
