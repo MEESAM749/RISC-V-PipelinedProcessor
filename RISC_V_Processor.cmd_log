@@ -5,3 +5,15 @@ xst -intstyle ise -ifn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-Pipelin
 xst -intstyle ise -ifn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.xst" -ofn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.syr" 
 xst -intstyle ise -ifn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.xst" -ofn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.syr" 
 xst -intstyle ise -ifn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.xst" -ofn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.xst" -ofn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm IE.bmm -p xc7a100t-csg324-3 "RISC_V_Processor.ngc" RISC_V_Processor.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o RISC_V_Processor_map.ncd RISC_V_Processor.ngd RISC_V_Processor.pcf 
+par -w -intstyle ise -ol high -mt off RISC_V_Processor_map.ncd RISC_V_Processor.ncd RISC_V_Processor.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml RISC_V_Processor.twx RISC_V_Processor.ncd -o RISC_V_Processor.twr RISC_V_Processor.pcf 
+xst -intstyle ise -ifn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.xst" -ofn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.xst" -ofn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.xst" -ofn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.xst" -ofn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.xst" -ofn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.xst" -ofn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.syr" 
+xst -intstyle ise -ifn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.xst" -ofn "C:/Users/Muhammad Meesam/Documents/GitHub/RISC-V-PipelinedProcessor/RISC_V_Processor.syr" 

@@ -76,15 +76,48 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="IW_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="IW_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="IW_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="RISC_V_Processor.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="RISC_V_Processor.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="RISC_V_Processor.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="RISC_V_Processor.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="RISC_V_Processor.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="RISC_V_Processor.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="RISC_V_Processor.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="RISC_V_Processor.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="RISC_V_Processor.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="RISC_V_Processor.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="RISC_V_Processor.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="RISC_V_Processor.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="RISC_V_Processor.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="RISC_V_Processor.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="RISC_V_Processor.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="RISC_V_Processor.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="RISC_V_Processor.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="RISC_V_Processor.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="RISC_V_Processor.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="RISC_V_Processor_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="RISC_V_Processor_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="RISC_V_Processor_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="RISC_V_Processor_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="RISC_V_Processor_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="RISC_V_Processor_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RISC_V_Processor_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RISC_V_Processor_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="RISC_V_Processor_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="RISC_V_Processor_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RISC_V_Processor_par.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="RISC_V_Processor_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="RISC_V_Processor_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="RISC_V_Processor_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="RISC_V_Processor_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
@@ -117,25 +150,76 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1741459658" xil_pn:in_ck="6743508924829516640" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="2350234440860843743" xil_pn:start_ts="1741459649">
-      <status xil_pn:value="FailedRun"/>
+    <transform xil_pn:end_ts="1744137765" xil_pn:in_ck="6743508924829516640" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="2350234440860843743" xil_pn:start_ts="1744137756">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="ID.ngr"/>
-      <outfile xil_pn:name="IE.ngr"/>
       <outfile xil_pn:name="IF.ngr"/>
-      <outfile xil_pn:name="IM.ngr"/>
-      <outfile xil_pn:name="IW.ngr"/>
       <outfile xil_pn:name="RISC_V_Processor.lso"/>
+      <outfile xil_pn:name="RISC_V_Processor.ngc"/>
+      <outfile xil_pn:name="RISC_V_Processor.ngr"/>
       <outfile xil_pn:name="RISC_V_Processor.prj"/>
+      <outfile xil_pn:name="RISC_V_Processor.stx"/>
       <outfile xil_pn:name="RISC_V_Processor.syr"/>
       <outfile xil_pn:name="RISC_V_Processor.xst"/>
       <outfile xil_pn:name="RISC_V_Processor_xst.xrpt"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1744135453" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8038898312712427655" xil_pn:start_ts="1744135453">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1744135461" xil_pn:in_ck="-5653464065632702623" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="2125518071539083603" xil_pn:start_ts="1744135453">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="RISC_V_Processor.bld"/>
+      <outfile xil_pn:name="RISC_V_Processor.ngd"/>
+      <outfile xil_pn:name="RISC_V_Processor_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1744135492" xil_pn:in_ck="6733739296149926540" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1744135461">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="RISC_V_Processor.pcf"/>
+      <outfile xil_pn:name="RISC_V_Processor_map.map"/>
+      <outfile xil_pn:name="RISC_V_Processor_map.mrp"/>
+      <outfile xil_pn:name="RISC_V_Processor_map.ncd"/>
+      <outfile xil_pn:name="RISC_V_Processor_map.ngm"/>
+      <outfile xil_pn:name="RISC_V_Processor_map.xrpt"/>
+      <outfile xil_pn:name="RISC_V_Processor_summary.xml"/>
+      <outfile xil_pn:name="RISC_V_Processor_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1744135524" xil_pn:in_ck="-4903397729616648283" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1744135492">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="RISC_V_Processor.ncd"/>
+      <outfile xil_pn:name="RISC_V_Processor.pad"/>
+      <outfile xil_pn:name="RISC_V_Processor.par"/>
+      <outfile xil_pn:name="RISC_V_Processor.ptwx"/>
+      <outfile xil_pn:name="RISC_V_Processor.unroutes"/>
+      <outfile xil_pn:name="RISC_V_Processor.xpi"/>
+      <outfile xil_pn:name="RISC_V_Processor_pad.csv"/>
+      <outfile xil_pn:name="RISC_V_Processor_pad.txt"/>
+      <outfile xil_pn:name="RISC_V_Processor_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1744135524" xil_pn:in_ck="6733739296149926408" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1744135510">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="RISC_V_Processor.twr"/>
+      <outfile xil_pn:name="RISC_V_Processor.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
     </transform>
   </transforms>
 

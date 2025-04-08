@@ -22,7 +22,7 @@ module ID(
     input wire [31:0] Instr,      // Full instruction input
     input wire [31:0] PcIn,       // Program Counter Input
     input wire [31:0] AdderIn,    // Address for branch/jump
-    input wire WriteEn,           // Write enable signal
+    input wire WriteEn,clk,           // Write enable signal
 
     output wire RegWrite, MemWrite, Jump, Branch, ALUSrc,
     output wire [1:0] ResultSrc,

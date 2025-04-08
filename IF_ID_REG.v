@@ -23,8 +23,8 @@ module IF_ID_Register (
     input wire reset,              // Reset signal
     input wire stall,              // Stall signal (for hazard handling)
     input wire [31:0] PC_in,       // Program counter input
-    input wire [31:0] instruction_in, // Instruction input
-    output reg [31:0] PC_out,      // Program counter output
+    input wire [31:0] instruction_in,adder_in, // Instruction input
+    output reg [31:0] PC_out,adder_out,      // Program counter output
     output reg [31:0] instruction_out // Instruction output
 );
 
@@ -32,10 +32,12 @@ module IF_ID_Register (
         if (reset) begin
             PC_out <= 32'b0;
             instruction_out <= 32'b0;
+				adder_out <= 32'b0;
         end
         else if (!stall) begin
             PC_out <= PC_in;
             instruction_out <= instruction_in;
+				adder_out <= adder_in;
         end
     end
 

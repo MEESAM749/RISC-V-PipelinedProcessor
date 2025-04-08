@@ -4,13 +4,13 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.10 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: RISC_V_Processor.prj
 
@@ -105,10 +105,6 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IW_MUX.v" into library work
-Parsing module <IW_MUX>.
-Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IM_DATAMEM.v" into library work
-Parsing module <IM_DATAMEM>.
 Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_PC.v" into library work
 Parsing module <IF_PC>.
 Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_MUX1.v" into library work
@@ -117,16 +113,6 @@ Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-Pipelin
 Parsing module <IF_IM>.
 Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_ADDER1.v" into library work
 Parsing module <IF_ADDER1>.
-Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_PCSRC.v" into library work
-Parsing module <IE_PCSRC>.
-Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_MUX2x1.v" into library work
-Parsing module <IE_MUX2x1>.
-Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_MUX.v" into library work
-Parsing module <IE_MUX3x1>.
-Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_ALU.v" into library work
-Parsing module <IE_ALU>.
-Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE_ADDER.v" into library work
-Parsing module <IE_ADDER>.
 Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID_REGFILE.v" into library work
 Parsing module <ID_REGFILE>.
 Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID_INSTR_PARSER.v" into library work
@@ -135,69 +121,18 @@ Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-Pipelin
 Parsing module <ID_EXTEND>.
 Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID_CU.v" into library work
 Parsing module <ID_CU>.
-Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\MEM_WB_Register.v" into library work
-Parsing module <MEM_WB_Register>.
-Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IW.v" into library work
-Parsing module <IW>.
-Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IM.v" into library work
-Parsing module <IM>.
 Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_ID_REG.v" into library work
 Parsing module <IF_ID_Register>.
 Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF.v" into library work
 Parsing module <IF>.
-Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IE.v" into library work
-Parsing module <IE>.
-Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID_EX_Register.v" into library work
-Parsing module <ID_EX_Register>.
 Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v" into library work
 Parsing module <ID>.
-Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\EX_MEM_Register.v" into library work
-Parsing module <EX_MEM_Register>.
 Analyzing Verilog file "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" into library work
 Parsing module <RISC_V_Processor>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 61: Module <IF> does not have a port named <PCSrc>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 62: Module <IF> does not have a port named <PCTarget>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 63: Module <IF> does not have a port named <PCWrite>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 64: Module <IF> does not have a port named <PC>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 65: Module <IF> does not have a port named <Instruction>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 66: Module <IF> does not have a port named <PCPlus4>.
-WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 58: Port mux1in is not connected to this instance
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 74: Module <IF_ID_Register> does not have a port named <Instruction_in>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 75: Module <IF_ID_Register> does not have a port named <PCPlus4_in>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 77: Module <IF_ID_Register> does not have a port named <Instruction_out>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 78: Module <IF_ID_Register> does not have a port named <PCPlus4_out>.
-WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 69: Port instruction_in is not connected to this instance
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 87: Module <ID> does not have a port named <PC>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 88: Module <ID> does not have a port named <RegWrite_WB>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 89: Module <ID> does not have a port named <Rd_WB>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 90: Module <ID> does not have a port named <Result_WB>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 98: Module <ID> does not have a port named <ReadData1>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 99: Module <ID> does not have a port named <ReadData2>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 100: Module <ID> does not have a port named <ImmExt>.
-WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 85: Port PcIn is not connected to this instance
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 119: Module <ID_EX_Register> does not have a port named <ImmExt_in>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 133: Module <ID_EX_Register> does not have a port named <ImmExt_out>.
-WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 106: Port MemtoReg_in is not connected to this instance
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 150: Module <IE> does not have a port named <ReadData1>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 151: Module <IE> does not have a port named <ReadData2>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 152: Module <IE> does not have a port named <ImmExt>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 158: Module <IE> does not have a port named <PCSrc>.
-WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 143: Port ResultSrc is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 161: Port MemtoReg_in is not connected to this instance
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 184: Module <IM> does not have a port named <WriteData>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 185: Module <IM> does not have a port named <MemWrite>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 186: Module <IM> does not have a port named <MemRead>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 187: Module <IM> does not have a port named <ReadData>.
-WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 182: Port WriteDataM is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 190: Port MemtoReg_in is not connected to this instance
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 208: Module <IW> does not have a port named <ReadData>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 209: Module <IW> does not have a port named <ALUResult>.
-WARNING:HDLCompiler:25 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 210: Module <IW> does not have a port named <Result>.
-WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 207: Port RegWrtieW is not connected to this instance
 
 Elaborating module <RISC_V_Processor>.
 
@@ -210,19 +145,527 @@ Elaborating module <IF_PC>.
 Elaborating module <IF_ADDER1>.
 
 Elaborating module <IF_IM>.
-ERROR:HDLCompiler:267 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 61: Cannot find port PCSrc on this module
-ERROR:HDLCompiler:267 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 62: Cannot find port PCTarget on this module
-ERROR:HDLCompiler:267 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 63: Cannot find port PCWrite on this module
-ERROR:HDLCompiler:267 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 64: Cannot find port PC on this module
-ERROR:HDLCompiler:267 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 65: Cannot find port Instruction on this module
-ERROR:HDLCompiler:267 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 66: Cannot find port PCPlus4 on this module
-Module RISC_V_Processor remains a blackbox, due to errors in its contents
-WARNING:HDLCompiler:1499 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 1: Empty module <RISC_V_Processor> remains a black box.
+
+Elaborating module <IF_ID_Register>.
+WARNING:HDLCompiler:1016 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v" Line 61: Port a1 is not connected to this instance
+
+Elaborating module <ID>.
+
+Elaborating module <ID_INSTR_PARSER>.
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v" Line 69: Assignment to imm ignored, since the identifier is never used
+
+Elaborating module <ID_CU>.
+
+Elaborating module <ID_REGFILE>.
+
+Elaborating module <ID_EXTEND>.
+WARNING:HDLCompiler:189 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v" Line 101: Size mismatch in connection of port <instr>. Formal port size is 25-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 55: Assignment to idmoduleregwrite ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 56: Assignment to idmodulememwrite ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 57: Assignment to idmoudlejump ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 58: Assignment to idmodulebranch ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 59: Assignment to idmodulealusrc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 60: Assignment to idmoduleresultsrc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 61: Assignment to idmoduelalucontrol ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 62: Assignment to idmodulerd1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 63: Assignment to idmodulerd2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 64: Assignment to idmodulepcout ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 65: Assignment to idmodulers1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 66: Assignment to idmodulers2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 67: Assignment to idmodulerd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 68: Assignment to idmoduleextimmout ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 74: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:634 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 7: Net <ifmuxin[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 8: Net <ifmuxselect> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 11: Net <ifidstall> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 15: Net <idmodulewriteen> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <RISC_V_Processor>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v".
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" line 49: Output port <ResultSrc> of the instance <idmodule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" line 49: Output port <ALUControl> of the instance <idmodule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" line 49: Output port <Rd1> of the instance <idmodule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" line 49: Output port <Rd2> of the instance <idmodule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" line 49: Output port <PcOut> of the instance <idmodule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" line 49: Output port <Rs1> of the instance <idmodule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" line 49: Output port <Rs2> of the instance <idmodule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" line 49: Output port <Rd> of the instance <idmodule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" line 49: Output port <ExtImm> of the instance <idmodule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" line 49: Output port <RegWrite> of the instance <idmodule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" line 49: Output port <MemWrite> of the instance <idmodule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" line 49: Output port <Jump> of the instance <idmodule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" line 49: Output port <Branch> of the instance <idmodule> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" line 49: Output port <ALUSrc> of the instance <idmodule> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <ifmuxin> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <ifmuxselect> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <ifidstall> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <idmodulewriteen> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <RISC_V_Processor> synthesized.
+
+Synthesizing Unit <IF>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF.v".
+    Summary:
+	no macro.
+Unit <IF> synthesized.
+
+Synthesizing Unit <IF_MUX1>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_MUX1.v".
+    Summary:
+	no macro.
+Unit <IF_MUX1> synthesized.
+
+Synthesizing Unit <IF_PC>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_PC.v".
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32-bit register for signal <pc_out>.
+    Summary:
+	inferred  32 D-type flip-flop(s).
+Unit <IF_PC> synthesized.
+
+Synthesizing Unit <IF_ADDER1>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_ADDER1.v".
+    Found 32-bit adder for signal <out> created at line 25.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <IF_ADDER1> synthesized.
+
+Synthesizing Unit <IF_IM>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_IM.v".
+WARNING:Xst:647 - Input <inst_addr<31:5>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <instmem> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 32x32-bit single-port Read Only RAM <Mram_instmem> for signal <instmem>.
+    Summary:
+	inferred   1 RAM(s).
+Unit <IF_IM> synthesized.
+
+Synthesizing Unit <IF_ID_Register>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\IF_ID_REG.v".
+    Found 32-bit register for signal <instruction_out>.
+    Found 32-bit register for signal <adder_out>.
+    Found 32-bit register for signal <PC_out>.
+    Summary:
+	inferred  96 D-type flip-flop(s).
+Unit <IF_ID_Register> synthesized.
+
+Synthesizing Unit <ID>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v".
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v" line 61: Output port <imm> of the instance <parser> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v" line 61: Output port <a1> of the instance <parser> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v" line 61: Output port <a2> of the instance <parser> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <ID> synthesized.
+
+Synthesizing Unit <ID_INSTR_PARSER>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID_INSTR_PARSER.v".
+    Summary:
+	inferred  25 Multiplexer(s).
+Unit <ID_INSTR_PARSER> synthesized.
+
+Synthesizing Unit <ID_CU>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID_CU.v".
+WARNING:Xst:647 - Input <funct7<4:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <funct7<6:6>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <ID_CU> synthesized.
+
+Synthesizing Unit <ID_REGFILE>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID_REGFILE.v".
+INFO:Xst:3038 - The RAM <regfile> appears to be read-only. If that was not your intent please check the write enable description.
+    Found 32x32-bit dual-port Read Only RAM <Mram_regfile> for signal <regfile>.
+    Summary:
+	inferred   1 RAM(s).
+Unit <ID_REGFILE> synthesized.
+
+Synthesizing Unit <ID_EXTEND>.
+    Related source file is "C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID_EXTEND.v".
+    Found 1-bit 3-to-1 multiplexer for signal <imm_out<11>> created at line 30.
+    Found 1-bit 3-to-1 multiplexer for signal <imm_out<0>> created at line 30.
+    Summary:
+	inferred  22 Multiplexer(s).
+Unit <ID_EXTEND> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 32x32-bit dual-port Read Only RAM                     : 1
+ 32x32-bit single-port Read Only RAM                   : 1
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Registers                                            : 4
+ 32-bit register                                       : 4
+# Multiplexers                                         : 47
+ 1-bit 2-to-1 multiplexer                              : 20
+ 1-bit 3-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 4
+ 32-bit 2-to-1 multiplexer                             : 6
+ 5-bit 2-to-1 multiplexer                              : 14
+ 7-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <im> is unconnected in block <ifmodule>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <parser> is unconnected in block <idmodule>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <regfile> is unconnected in block <idmodule>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <cu> is unconnected in block <idmodule>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <extender> is unconnected in block <idmodule>.
+   It will be removed from the design.
+WARNING:Xst:2677 - Node <adder_out_1> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_2> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_3> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_4> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_5> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_6> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_7> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_8> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_9> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_10> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_11> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_12> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_13> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_14> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_15> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_16> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_17> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_18> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_19> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_20> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_21> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_22> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_23> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_24> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_25> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_26> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_27> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_28> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_29> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_30> of sequential type is unconnected in block <ifidmodule>.
+WARNING:Xst:2677 - Node <adder_out_31> of sequential type is unconnected in block <ifidmodule>.
+
+Synthesizing (advanced) Unit <ID_REGFILE>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_regfile> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <a1>            |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <rd1>           |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     addrB          | connected to signal <a2>            |          |
+    |     doB            | connected to signal <rd2>           |          |
+    -----------------------------------------------------------------------
+Unit <ID_REGFILE> synthesized (advanced).
+
+Synthesizing (advanced) Unit <IF_IM>.
+INFO:Xst:3231 - The small RAM <Mram_instmem> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 32-bit                    |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <inst_addr>     |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3217 - HDL ADVISOR - Register <instruction_out> currently described with an asynchronous reset, could be combined with distributed RAM <Mram_instmem> for implementation on block RAM resources if you made this reset synchronous instead.
+Unit <IF_IM> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 2
+ 32x32-bit dual-port distributed Read Only RAM         : 1
+ 32x32-bit single-port distributed Read Only RAM       : 1
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Registers                                            : 128
+ Flip-Flops                                            : 128
+# Multiplexers                                         : 47
+ 1-bit 2-to-1 multiplexer                              : 20
+ 1-bit 3-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 4
+ 32-bit 2-to-1 multiplexer                             : 6
+ 5-bit 2-to-1 multiplexer                              : 14
+ 7-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2973 - All outputs of instance <idmodule/extender> of block <ID_EXTEND> are unconnected in block <RISC_V_Processor>. Underlying logic will be removed.
+WARNING:Xst:2973 - All outputs of instance <idmodule/parser> of block <ID_INSTR_PARSER> are unconnected in block <RISC_V_Processor>. Underlying logic will be removed.
+WARNING:Xst:1293 - FF/Latch <pc/pc_out_0> has a constant value of 0 in block <IF>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <pc/pc_out_1> has a constant value of 0 in block <IF>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <RISC_V_Processor> ...
+
+Optimizing unit <IF> ...
+
+Optimizing unit <IF_ID_Register> ...
+
+Optimizing unit <ID_INSTR_PARSER> ...
+WARNING:Xst:1710 - FF/Latch <ifidmodule/adder_out_0> (without init value) has a constant value of 0 in block <RISC_V_Processor>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_31> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_30> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_29> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_28> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_27> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_26> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_25> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_24> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_23> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_22> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_21> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_20> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_19> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_18> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_17> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_16> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_15> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_14> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_13> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_12> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_11> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_10> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_9> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_8> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_7> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_6> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_5> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_4> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_3> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifmodule/pc/pc_out_2> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_31> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_30> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_29> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_28> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_27> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_26> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_25> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_24> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_23> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_22> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_21> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_20> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_19> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_18> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_17> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_16> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_15> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_14> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_13> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_12> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_11> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_10> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_9> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_8> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_7> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_6> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_5> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_4> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_3> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_2> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_1> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/instruction_out_0> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_31> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_30> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_29> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_28> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_27> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_26> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_25> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_24> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_23> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_22> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_21> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_20> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_19> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_18> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_17> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_16> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_15> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_14> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_13> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_12> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_11> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_10> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_9> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_8> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_7> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_6> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_5> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_4> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_3> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_2> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_1> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/PC_out_0> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_31> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_30> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_29> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_28> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_27> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_26> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_25> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_24> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_23> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_22> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_21> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_20> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_19> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_18> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_17> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_16> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_15> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_14> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_13> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_12> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_11> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_10> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_9> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_8> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_7> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_6> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_5> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_4> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_3> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_2> of sequential type is unconnected in block <RISC_V_Processor>.
+WARNING:Xst:2677 - Node <ifidmodule/adder_out_1> of sequential type is unconnected in block <RISC_V_Processor>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RISC_V_Processor, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : RISC_V_Processor.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1
+#      GND                         : 1
+# IO Buffers                       : 1
+#      OBUF                        : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           3
+ Number of bonded IOBs:                   1  out of    210     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.73 secs
+ 
 --> 
 
-Total memory usage is 4478344 kilobytes
+Total memory usage is 4689564 kilobytes
 
-Number of errors   :    6 (   0 filtered)
-Number of warnings :   40 (   0 filtered)
-Number of infos    :    0 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  197 (   0 filtered)
+Number of infos    :   21 (   0 filtered)
 

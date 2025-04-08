@@ -5,142 +5,663 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 61: Module &lt;<arg fmt="%s" index="1">IF</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PCSrc</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v" Line 61: Port <arg fmt="%s" index="1">a1</arg> is not connected to this instance
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 62: Module &lt;<arg fmt="%s" index="1">IF</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PCTarget</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v" Line 69: Assignment to <arg fmt="%s" index="1">imm</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 63: Module &lt;<arg fmt="%s" index="1">IF</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PCWrite</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v" Line 101: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">instr</arg>&gt;. Formal port size is <arg fmt="%d" index="2">25</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 64: Module &lt;<arg fmt="%s" index="1">IF</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PC</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 55: Assignment to <arg fmt="%s" index="1">idmoduleregwrite</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 65: Module &lt;<arg fmt="%s" index="1">IF</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">Instruction</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 56: Assignment to <arg fmt="%s" index="1">idmodulememwrite</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 66: Module &lt;<arg fmt="%s" index="1">IF</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PCPlus4</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 57: Assignment to <arg fmt="%s" index="1">idmoudlejump</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 58: Port <arg fmt="%s" index="1">mux1in</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 58: Assignment to <arg fmt="%s" index="1">idmodulebranch</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 74: Module &lt;<arg fmt="%s" index="1">IF_ID_Register</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">Instruction_in</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 59: Assignment to <arg fmt="%s" index="1">idmodulealusrc</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 75: Module &lt;<arg fmt="%s" index="1">IF_ID_Register</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PCPlus4_in</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 60: Assignment to <arg fmt="%s" index="1">idmoduleresultsrc</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 77: Module &lt;<arg fmt="%s" index="1">IF_ID_Register</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">Instruction_out</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 61: Assignment to <arg fmt="%s" index="1">idmoduelalucontrol</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 78: Module &lt;<arg fmt="%s" index="1">IF_ID_Register</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PCPlus4_out</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 62: Assignment to <arg fmt="%s" index="1">idmodulerd1</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 69: Port <arg fmt="%s" index="1">instruction_in</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 63: Assignment to <arg fmt="%s" index="1">idmodulerd2</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 87: Module &lt;<arg fmt="%s" index="1">ID</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PC</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 64: Assignment to <arg fmt="%s" index="1">idmodulepcout</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 88: Module &lt;<arg fmt="%s" index="1">ID</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">RegWrite_WB</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 65: Assignment to <arg fmt="%s" index="1">idmodulers1</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 89: Module &lt;<arg fmt="%s" index="1">ID</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">Rd_WB</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 66: Assignment to <arg fmt="%s" index="1">idmodulers2</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 90: Module &lt;<arg fmt="%s" index="1">ID</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">Result_WB</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 67: Assignment to <arg fmt="%s" index="1">idmodulerd</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 98: Module &lt;<arg fmt="%s" index="1">ID</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ReadData1</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 68: Assignment to <arg fmt="%s" index="1">idmoduleextimmout</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 99: Module &lt;<arg fmt="%s" index="1">ID</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ReadData2</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 74: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 100: Module &lt;<arg fmt="%s" index="1">ID</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ImmExt</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 7: Net &lt;<arg fmt="%s" index="1">ifmuxin[31]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 85: Port <arg fmt="%s" index="1">PcIn</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 8: Net &lt;<arg fmt="%s" index="1">ifmuxselect</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 119: Module &lt;<arg fmt="%s" index="1">ID_EX_Register</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ImmExt_in</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 11: Net &lt;<arg fmt="%s" index="1">ifidstall</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 133: Module &lt;<arg fmt="%s" index="1">ID_EX_Register</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ImmExt_out</arg>&gt;.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 15: Net &lt;<arg fmt="%s" index="1">idmodulewriteen</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 106: Port <arg fmt="%s" index="1">MemtoReg_in</arg> is not connected to this instance
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">ResultSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idmodule</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 150: Module &lt;<arg fmt="%s" index="1">IE</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ReadData1</arg>&gt;.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">ALUControl</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idmodule</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 151: Module &lt;<arg fmt="%s" index="1">IE</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ReadData2</arg>&gt;.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">Rd1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idmodule</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 152: Module &lt;<arg fmt="%s" index="1">IE</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ImmExt</arg>&gt;.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">Rd2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idmodule</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 158: Module &lt;<arg fmt="%s" index="1">IE</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">PCSrc</arg>&gt;.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">PcOut</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idmodule</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 143: Port <arg fmt="%s" index="1">ResultSrc</arg> is not connected to this instance
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">Rs1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idmodule</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 161: Port <arg fmt="%s" index="1">MemtoReg_in</arg> is not connected to this instance
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">Rs2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idmodule</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 184: Module &lt;<arg fmt="%s" index="1">IM</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">WriteData</arg>&gt;.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">Rd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idmodule</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 185: Module &lt;<arg fmt="%s" index="1">IM</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">MemWrite</arg>&gt;.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">ExtImm</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idmodule</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 186: Module &lt;<arg fmt="%s" index="1">IM</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">MemRead</arg>&gt;.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">RegWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idmodule</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 187: Module &lt;<arg fmt="%s" index="1">IM</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ReadData</arg>&gt;.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">MemWrite</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idmodule</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 182: Port <arg fmt="%s" index="1">WriteDataM</arg> is not connected to this instance
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">Jump</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idmodule</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 190: Port <arg fmt="%s" index="1">MemtoReg_in</arg> is not connected to this instance
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">Branch</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idmodule</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 208: Module &lt;<arg fmt="%s" index="1">IW</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ReadData</arg>&gt;.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">ALUSrc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">idmodule</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 209: Module &lt;<arg fmt="%s" index="1">IW</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">ALUResult</arg>&gt;.
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ifmuxin</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="25" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 210: Module &lt;<arg fmt="%s" index="1">IW</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">Result</arg>&gt;.
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ifmuxselect</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 207: Port <arg fmt="%s" index="1">RegWrtieW</arg> is not connected to this instance
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">ifidstall</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 61: Cannot find port <arg fmt="%s" index="1">PCSrc</arg> on this module
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">idmodulewriteen</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 62: Cannot find port <arg fmt="%s" index="1">PCTarget</arg> on this module
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="267" delta="new" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 63: Cannot find port <arg fmt="%s" index="1">PCWrite</arg> on this module
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">inst_addr&lt;31:5&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 64: Cannot find port <arg fmt="%s" index="1">PC</arg> on this module
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">instmem</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 65: Cannot find port <arg fmt="%s" index="1">Instruction</arg> on this module
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">imm</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">parser</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="error" file="HDLCompiler" num="267" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 66: Cannot find port <arg fmt="%s" index="1">PCPlus4</arg> on this module
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">a1</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">parser</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\RISC_V_Processor.v" Line 1: Empty module &lt;<arg fmt="%s" index="1">RISC_V_Processor</arg>&gt; remains a black box.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Muhammad Meesam\Documents\GitHub\RISC-V-PipelinedProcessor\ID.v</arg>&quot; line <arg fmt="%s" index="2">61</arg>: Output port &lt;<arg fmt="%s" index="3">a2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">parser</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">funct7&lt;4:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">funct7&lt;6:6&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3038" delta="new" >The RAM &lt;<arg fmt="%s" index="1">regfile</arg>&gt; appears to be read-only. If that was not your intent please check the write enable description.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">im</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">ifmodule</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">parser</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">idmodule</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">regfile</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">idmodule</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">cu</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">idmodule</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">extender</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">idmodule</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">adder_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ifidmodule</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_regfile</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_instmem</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3217" delta="old" >HDL ADVISOR - Register &lt;<arg fmt="%s" index="1">instruction_out</arg>&gt; currently described with an asynchronous reset, could be combined with distributed RAM &lt;<arg fmt="%s" index="2">Mram_instmem</arg>&gt; for implementation on block RAM resources if you made this reset synchronous instead.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="new" >All outputs of instance &lt;<arg fmt="%s" index="1">idmodule/extender</arg>&gt; of block &lt;<arg fmt="%s" index="2">ID_EXTEND</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">RISC_V_Processor</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2973" delta="new" >All outputs of instance &lt;<arg fmt="%s" index="1">idmodule/parser</arg>&gt; of block &lt;<arg fmt="%s" index="2">ID_INSTR_PARSER</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">RISC_V_Processor</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="1293" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">pc/pc_out_0</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">IF</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">pc/pc_out_1</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">IF</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RISC_V_Processor</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifmodule/pc/pc_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">ifidmodule/instruction_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/PC_out_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">ifidmodule/adder_out_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">RISC_V_Processor</arg>&gt;.
 </msg>
 
 </messages>
