@@ -5,6 +5,6 @@ This project was aimed at gaining deeper understanding of simulating and verifyi
 Stage 1 Completed  
 Stage 2 Completed  
 Stage 3 Completed  
-Stage 4 Completd  
+Stage 4 Completed  
 Stage 5 Completed   
 Integration of all stages into a single top module in progress...
