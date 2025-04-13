@@ -2,7 +2,10 @@
 
 This project is a simulation of a **5-stage RISC-V pipelined processor**, built in **Verilog** and simulated using **Xilinx ISE Design Suite 14.5**. The goal is to gain hands-on experience with processor architecture, pipelining concepts, and hardware simulation/verification workflows.
 
+<img width="464" alt="RISC-V Pipelined Datapath" src="https://github.com/user-attachments/assets/241c6045-a978-4649-8a89-b0b7c0ce6abd" />  
+
 ---
+
 
 ## 🎯 Objectives
 
